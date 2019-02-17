@@ -1,0 +1,21 @@
+{
+  "keystone": {
+    "cookieSecret": "place-your-cookie-secret-here"
+  },
+  "storage": {
+    "url": "mongodb://mongo.automl.local:27017/auth"
+  },
+  "mail": {
+    "from": "place-your-from@address.here",
+    "acceptedUrls": ["http://"],
+    "transport": {
+      "host": "smtp.mail.ru",
+      "port": 465,
+      "secure": true,
+      "auth": {
+        "user": "place-your-from@address.here",
+        "pass": "place-your-password-here"
+      }
+    }
+  }
+}
