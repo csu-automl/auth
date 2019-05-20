@@ -6,15 +6,15 @@
     "url": "mongodb://mongo.automl.local:27017/auth"
   },
   "mail": {
-    "from": "place-your-from@address.here",
+    "from": "report.automl@mail.ru",
     "acceptedUrls": ["http://"],
     "transport": {
       "host": "smtp.mail.ru",
       "port": 465,
       "secure": true,
       "auth": {
-        "user": "place-your-from@address.here",
-        "pass": "place-your-password-here"
+        "user": "report.automl@mail.ru",
+        "pass": "i18QfBlIJ6E6e9GKto11"
       }
     }
   }
